@@ -15,6 +15,7 @@ li {
   font-size: 19px;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 .weather-app-wrapper {
   max-width: 600px;
