@@ -22,7 +22,6 @@ function formatDate(timestamp) {
 }
 
 function displayTemperature(response) {
-  console.log(response.data);
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
   let descriptionElement = document.querySelector("#description");
@@ -38,6 +37,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "8f38c6e1335be5316719a809c492c27b";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Petah Tikva&appid=${apiKey}&units=metric`;
+let city = "Petah Tikva";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
