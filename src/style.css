@@ -3,6 +3,7 @@ h1 {
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   font-size: 34px;
+  text-align: center;
 }
 ul {
   margin: 0;
@@ -70,4 +71,14 @@ li:first-letter {
 .search {
   margin: 0px 10px 20px 40px;
   padding: 10px;
+}
+
+.weather-temperature .active {
+  color: #212529;
+  font-weight: 500;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
