@@ -82,3 +82,22 @@ li:first-letter {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast-date {
+  color: #07a4b5;
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures-min {
+  color: grey;
+}
